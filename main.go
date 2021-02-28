@@ -17,6 +17,8 @@ package main
 
 import "github.com/yexm/hamal/cmd"
 
+
+
 func main() {
 	cmd.Execute()
 }
