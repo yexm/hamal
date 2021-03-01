@@ -34,8 +34,8 @@ builds:
   dir: .
   main: .
   ldflags:
-  - -s -X github.com/sunny0826/hamal/cmd.hamalVersion={{.Version}} -X github.com/sunny0826/hamal/cmd.gitCommit={{.Commit}}
-    -X github.com/sunny0826/hamal/cmd.buildDate={{.Date}}
+  - -s -X github.com/yexm/hamal/cmd.hamalVersion={{.Version}} -X github.com/yexm/hamal/cmd.gitCommit={{.Commit}}
+    -X github.com/yexm/hamal/cmd.buildDate={{.Date}}
   binary: hamal
   env:
   - CGO_ENABLED=0

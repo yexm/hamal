@@ -2,7 +2,7 @@
 builds:
 - env:
   - CGO_ENABLED=0
-  ldflags: -s -X github.com/sunny0826/hamal/cmd.hamalVersion={{.Version}} -X github.com/sunny0826/hamal/cmd.gitCommit={{.Commit}} -X github.com/sunny0826/hamal/cmd.buildDate={{.Date}}
+  ldflags: -s -X github.com/yexm/hamal/cmd.hamalVersion={{.Version}} -X github.com/yexm/hamal/cmd.gitCommit={{.Commit}} -X github.com/yexm/hamal/cmd.buildDate={{.Date}}
 archives:
 - replacements:
     darwin: Darwin

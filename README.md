@@ -2,9 +2,9 @@
 
 # Hamal
 
-[![Build Status](https://travis-ci.org/sunny0826/hamal.svg?branch=master)](https://travis-ci.org/sunny0826/hamal)
-[![Go Report Card](https://goreportcard.com/badge/github.com/sunny0826/hamal)](https://goreportcard.com/report/github.com/sunny0826/hamal)
-![GitHub](https://img.shields.io/github/license/sunny0826/hamal.svg)
+[![Build Status](https://travis-ci.org/yexm/hamal.svg?branch=master)](https://travis-ci.org/yexm/hamal)
+[![Go Report Card](https://goreportcard.com/badge/github.com/yexm/hamal)](https://goreportcard.com/report/github.com/yexm/hamal)
+![GitHub](https://img.shields.io/github/license/yexm/hamal.svg)
 
 `Hamal` is a tool for synchronizing images between two mirrored repositories.
 
@@ -37,7 +37,7 @@ Use "hamal [command] --help" for more information about a command.
 
 ----------------------------------------------------------------------------
 
-For details, please see: https://github.com/sunny0826/hamal.git
+For details, please see: https://github.com/yexm/hamal.git
 
 example:
 hamal run -n drone-dingtalk:latest
@@ -60,16 +60,16 @@ Global Flags:
 Homebrew:
 
 ```bash
-brew install sunny0826/tap/hamal
+brew install yexm/tap/hamal
 ```
 
 Download the binary:
 
 ```bash
 # linux x86_64
-curl -Lo kubecm.tar.gz https://github.com/sunny0826/hamal/releases/download/v${VERSION}/kubecm_${VERSION}_Linux_x86_64.tar.gz
+curl -Lo kubecm.tar.gz https://github.com/yexm/hamal/releases/download/v${VERSION}/kubecm_${VERSION}_Linux_x86_64.tar.gz
 # macos
-curl -Lo kubecm.tar.gz https://github.com/sunny0826/hamal/releases/download/v${VERSION}/kubecm_${VERSION}_Darwin_x86_64.tar.gz
+curl -Lo kubecm.tar.gz https://github.com/yexm/hamal/releases/download/v${VERSION}/kubecm_${VERSION}_Darwin_x86_64.tar.gz
 
 tar -zxvf hamal.tar.gz hamal
 sudo mv hamal /usr/local/bin/
