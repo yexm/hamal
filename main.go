@@ -15,10 +15,14 @@ limitations under the License.
 */
 package main
 
-import "github.com/yexm/hamal/cmd"
+import (
+	"github.com/yexm/hamal/cmd"
+	"log"
+)
 
 
 
 func main() {
+	log.Println("test")
 	cmd.Execute()
 }
