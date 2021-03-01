@@ -34,7 +34,7 @@ hamal init
 `,
 	Run: func(cmd *cobra.Command, args []string) {
 		if !checkConfig(cfgFile) {
-			fmt.Printf("create %s .", cfgFile)
+			fmt.Printf("create cfgFile:  %s .", cfgFile)
 			cfgPath := strings.Replace(cfgFile, "/config", "", 1)
 			err := os.Mkdir(cfgPath, 0777)
 			if err != nil {
