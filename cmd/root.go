@@ -18,7 +18,6 @@ limitations under the License.
 
 import (
 	"flag"
-	"fmt"
 	"os"
 	"path/filepath"
 
@@ -49,7 +48,6 @@ Currently only Linux and MacOS are supported.`,
 // This is called by main.main(). It only needs to happen once to the rootCmd.
 func Execute() {
 	if err := rootCmd.Execute(); err != nil {
-		fmt.Println(err)
 		os.Exit(1)
 	}
 }
@@ -64,7 +62,6 @@ func initConfig() {
 	haconfig := flag.String("haconfig", filepath.Join(home, ".hamal", "config"), "(optional) absolute path to the haconfig file")
 	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", *haconfig, "config.yaml file (default is $HOME/.hamal)")
 	if err != nil {
-		fmt.Println(err)
 		os.Exit(1)
 	}
 }
