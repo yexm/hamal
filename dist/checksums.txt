@@ -1,4 +1,0 @@
-036339888b4c94eb10b6846024f2a751c164d5cba99a7de21c8201703cdb3e5e  hamal_v0.0.0-rc_Linux_arm64.tar.gz
-12ca041415a3b3e4e2d464180dc5bbb72eb3a46597adbbb5df923fcb3345307a  hamal_v0.0.0-rc_Linux_x86_64.tar.gz
-3138db399030ee9d12f34164f5a7d0926e4c9bc35b80412b323024167e627dbc  hamal_v0.0.0-rc_Darwin_x86_64.tar.gz
-fff0d661fe537e1344c2511f0e6213d2ba302b446d09bddc7be0618c29facfa9  hamal_v0.0.0-rc_Linux_i386.tar.gz
